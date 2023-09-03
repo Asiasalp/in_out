@@ -363,6 +363,15 @@ section.sopra {
   flex: 1;
 }
 
+.abel {
+  font-family: abel;
+}
+
+.inter {
+  font-family: inter;
+}
+
+
 
 /*
 ** MEDIA QUERY BREAKPOINTS
