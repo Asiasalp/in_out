@@ -228,11 +228,11 @@ section.sopra {
     gap: 300px; 
     border-radius:  0 0 10px 10px;
  }
- section.sopra h3 {
-    margin: 0 10px;
-    font-size: 18px;
+ section.sopra h2 {
+    margin: 10px 10px;
+    font-size: 33px;
  }
-  section.sopra h3 {
+  section.sopra h2 {
     text-align: center;
     margin-bottom: 10px;
     color:#000
@@ -242,7 +242,7 @@ section.sopra {
     border-radius:  45px 45px 45px 45px;
  }
  section.sopra img {
-    height: 300px;
+    height: auto;
     object-fit: cover;
     width: 100%;
     border-radius:  45px 45px  45px 45px;
@@ -258,14 +258,14 @@ section.sopra {
     gap: 300px; 
     border-radius:  0 0 10px 10px;
  }
- section.sotto h3 {
-    margin: 0 10px;
-    font-size: 18px;
+ section.sotto h2 {
+    margin: 10px 10px;
+    font-size: 33px;
  }
  
  
  
- section.sotto h3 {
+ section.sotto h2 {
     text-align: center;
     margin-bottom: 10px;
     color:#000
@@ -275,7 +275,7 @@ section.sopra {
     border-radius:  45px 45px 45px 45px;
  }
  section.sotto img {
-    height: 300px;
+    height: auto;
     object-fit: cover;
     width: 100%;
     border-radius:  45px 45px  45px 45px;
