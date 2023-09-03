@@ -1,6 +1,7 @@
 body, html {
     cursor: default;
-    background-image:url(/assets/pics/outdoor/etnico_2.jpg);
+    background-image:url(../pics/outdoor/etnico_2.jpg);
+    background-repeat: unset; 
 }
 
 .modal {
@@ -82,10 +83,3 @@ body, html {
     filter: brightness(0.7);
     cursor: pointer;
 }
-
-#signin-modal {
-    flex: 400px 1;
-    border-radius: 25px;
-    height: 500px;
-}
-
