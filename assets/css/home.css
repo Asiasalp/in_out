@@ -76,17 +76,17 @@ body, html, * {
 }
 
 .img-bg-1 {
-  background-image:  url(/assets/pics/industrial_2.jpg);
+  background-image:  url(../pics/industrial_2.jpg);
   background-size: cover;
 }
 
 .img-bg-2 {
-  background-image:  url(/assets/pics/outdoor/naturale_1.jpg);
+  background-image:  url(../pics/outdoor/naturale_1.jpg);
   background-size: cover;
 }
 
 .img-bg-3 {
-  background-image:  url(/assets/pics/indoor/vintage_1.jpg);
+  background-image:  url(../pics/indoor/vintage_1.jpg);
   background-size: cover;
 }
 
@@ -290,6 +290,7 @@ body, html, * {
   align-content: center;
   flex-wrap: wrap;
   width: 100%;
+  background-color: #517965;
 }
 
 .footer>.logo {
