@@ -120,7 +120,7 @@ body, html {
     flex: 1;
     justify-content: space-around;
     height: auto;
-    font-size: 2rem;
+    font-size: 25px;
 }
 
 .header>.contatti>span:hover {
@@ -132,6 +132,14 @@ body, html {
 ** TITLE STYLESHEET
 **
 */
+
+.prenota { flex: 1;
+  text-align: center;
+  align-self: center;
+  height: auto;
+  font-size: 3rem;
+  color: white ; }
+
 
 .title {
     display: flex;
@@ -145,7 +153,7 @@ body, html {
     text-align: center;
     align-self: center;
     height: auto;
-    font-size: 7rem;
+    font-size: 5rem;
     color: #517965 ;
 }
 
@@ -280,8 +288,12 @@ section.sopra {
     object-fit: cover;
     width: 100%;
     border-radius:  45px 45px  45px 45px;
+
  }
 
+ .coverindustrial {
+  width:100%
+ }
 
 /*
 ** FOOTER
@@ -290,7 +302,7 @@ section.sopra {
 
 .footer {
   background-color: #517965;
-  font-size: 25px;
+  font-size: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
