@@ -128,7 +128,7 @@ body, html, * {
   background-color: inherit;
 }
 
-.home .header>.logo>img:hover {
+.home .header>.marchio>img:hover {
   cursor: pointer;
 }
 
@@ -147,9 +147,32 @@ body, html, * {
   /* border-style: solid; */
   text-align: left;
   flex: 1;
-  justify-content: space-around;
-  height: auto;
   font-size: 36px;
+  color:white;
+  text-decoration: none;
+}
+
+.contatti{
+ position: absolute;
+ top: 10%;
+ right: 1%;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid black; */
+    width: 40%;
+    flex-wrap: wrap;
+    align-self: baseline;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+
+
+.contatti a {
+  font-size: 36px;
+  color:white;
+  text-decoration: none;
+  
 }
 
 .home .header>.contatti>span:hover {

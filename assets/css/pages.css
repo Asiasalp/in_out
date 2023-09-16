@@ -292,7 +292,26 @@ section.sopra {
  }
 
  .coverindustrial {
-  width:100%
+  max-width: 100%;
+  max-height: 500px;
+ }
+
+ .coverindustrial img{
+  width: fit-content;
+  height: 500px;
+ }
+
+ .text p{
+  text-align: left;  
+  margin-bottom: 2%;
+  font-size: 110%;
+  padding-right: 5%;
+ }
+
+ .text{
+  max-width: 60%;
+  margin-left: 20%;
+  
  }
 
 /*
@@ -342,6 +361,9 @@ section.sopra {
 
 .footer .blank {
   height: 15px;
+}
+
+.gallery{padding-top:20%;
 }
 
 .gallery>.gallery-flex {
