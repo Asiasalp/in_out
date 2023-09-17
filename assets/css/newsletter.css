@@ -64,12 +64,6 @@ body, html {
     cursor: pointer;
 }
 
-.modal>.box>.icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 100px;
-}
 
 .modal>.box>.icons div{
     flex: 1;
