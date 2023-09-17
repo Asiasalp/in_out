@@ -67,6 +67,7 @@ html,
 
 .header {
   background-color: #517965;
+  grid-area: header;
   display: flex;
   flex-direction: row;
   /* border: 2px solid black; */
@@ -74,7 +75,7 @@ html,
   flex-wrap: wrap;
   align-self: baseline;
   align-items: center;
-  justify-content: space-around;
+  height: 160px;
 }
 
 .header>.title {
@@ -90,10 +91,10 @@ html,
 .header>.logo {
   background-color: inherit;
   /* border-width: 2px;
-    border-style: solid; */
+  border-style: solid; */
   text-align: center;
   flex: 1;
-  height: 150px;
+  height: 200px;
 }
 
 .header>.logo img {
@@ -117,20 +118,49 @@ html,
 }
 
 .header>.contatti>span {
-  /* border-width: 2px; */
+   /* border-width: 2px; */
   /* border-style: solid; */
   text-align: left;
   flex: 1;
-  justify-content: space-around;
-  height: auto;
-  font-size: 25px;
+  font-size: 36px;
+  color:white;
+  text-decoration: none;
 }
 
-.header>.contatti>span:hover {
-  cursor: pointer;
-  filter: brightness(0.70);
-}
+.contatti{
+  position: absolute;
+  top: 10%;
+  right: 1%;
+     display: flex;
+     flex-direction: row;
+     /* border: 2px solid black; */
+     width: 40%;
+     flex-wrap: wrap;
+     align-self: baseline;
+     align-items: baseline;
+     justify-content: space-around;
+ }
+  
+ .contatti a {
+   font-size: 36px;
+   color:white;
+   text-decoration: none;
+   
+ }
+ 
+ .home .header>.contatti>span:hover {
+   cursor: pointer;
+   filter: brightness(0.70);
+ }
 
+ .home>.blank-grid{
+  width: 400px;
+  justify-self: center;
+  align-self: baseline;
+  grid-area: blank-grid;
+  background-color: transparent;
+}
+ 
 /*
 ** TITLE STYLESHEET
 **
@@ -193,10 +223,11 @@ html,
   text-align: center;
 }
 
-.info {
+.testostile {
   margin-top: 20%;
   margin-left: 20%;
   margin-right: 20%;
+  font-size: 130%;
 }
 
 
@@ -353,19 +384,18 @@ section.sotto img {
 */
 
 .footer {
-  background-color: #517965;
-  font-size: 20px;
+  font-size: 25px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-content: center;
   flex-wrap: wrap;
   width: 100%;
-  height: 15%;
+  background-color: #517965;
 }
 
 .footer>.logo {
-  height: 150px;
+  height: 200px;
 }
 
 .footer>.logo>img {
@@ -396,6 +426,7 @@ section.sotto img {
 .footer .blank {
   height: 15px;
 }
+
 
 .gallery>.gallery-flex {
   display: flex;
