@@ -203,9 +203,6 @@ html,
   color: #fff;
 }
 
-.ok {
-  padding-left: 180px;
-}
 
 .title img {
   flex: 1;
@@ -228,6 +225,16 @@ html,
   margin-left: 20%;
   margin-right: 20%;
   font-size: 130%;
+
+}
+
+.testostile p{
+  padding-bottom: 3%;
+}
+
+.linkarredi a{
+  color:white;
+  text-decoration: none;
 }
 
 
