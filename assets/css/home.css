@@ -350,164 +350,84 @@ body, html, * {
   height: 15px;
 }
 
-/*
-** MEDIA QUERY BREAKPOINTS
-**
-*/
-
-
-/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
-/*
-@media (max-width:1450px)  
-{
-
-  .home {
-    grid-template-rows: 220px 350px 220px;
-    gap: 10px;
-  }
-  
-  .home .header>.title {
-    font-size: 2rem;
-  }
-
-  .home .header>.logo {
-    height: 150px;
-  }
-
-  .home .header>.contatti>span{
-    font-size: 22px;
-  }
-
-  .home>.description {
-    width: 250px;
-    font-size: 15px;
-  }
-
-  .home>.title {
-    font-size: 50px;
-  }
-
-  .home>.menu>div .num {
-    font-size: 30px;
-  }
-
-  .home>.menu>div .description {
-    font-size: 18px;
-    width: 1fr;
-  }
-
-  .home>.section {
-    font-size: 22px;
-  }
-
-  .gallery>.gallery-title {
-    font-size: 25px;
-  }
-
-  .gallery>.gallery-flex {
-    height: 350px;
-  }
-
-  .footer {
-    font-size: 15px;
-  }
-
-  .footer>.logo {
-    height: 150px;
-  }
-
-  .lonely .description {
-    font-size: 25px;
-  }
-  
-  .lonely .description>.text {
-    flex: 450px;
-  }
-  
-  .lonely .title {
-    font-size: 2rem;
-  }
-}
-*/
 
 @media (max-width: 600px) {
-  /* Regole CSS per dispositivi con larghezza massima di 600px */
 
   body, html {
-    font-size: 14px; /* Esempio: riduci la dimensione del testo */
+    font-size: 14px;
   }
 
   .home {
-    grid-template-rows: auto; /* Imposta altezza automatica per le righe */
-    grid-template-columns: 1fr; /* Una colonna per dispositivi mobili */
+    grid-template-rows: auto; 
+    grid-template-columns: 1fr; 
     gap: 10px;
   }
 
   .home .header > .title {
-    font-size: 2rem; /* Riduci la dimensione del titolo */
+    font-size: 2rem;
   }
 
   .home .header > .logo {
-    height: 100px; /* Riduci l'altezza del logo */
+    height: 100px; 
   }
 
   .home .header > .contatti > span {
-    font-size: 16px; /* Riduci la dimensione del testo */
+    font-size: 16px; 
   }
 
   .home > .description {
-    width: 100%; /* Utilizza la larghezza completa */
-    font-size: 14px; /* Riduci la dimensione del testo */
+    width: 100%; 
+    font-size: 14px; 
   }
 
   .home > .title {
-    font-size: 36px; /* Riduci la dimensione del titolo */
+    font-size: 36px; 
   }
 
   .home > .section {
-    font-size: 1.5rem; /* Riduci la dimensione del testo */
+    font-size: 1.5rem; 
   }
 
   .home > .menu {
-    flex-direction: column; /* Imposta il menu su colonna per dispositivi mobili */
-    text-align: center; /* Centra il testo nel menu */
+    flex-direction: column; 
+    text-align: center; 
   }
 
   .home > .menu div {
-    flex: none; /* Imposta una larghezza fissa per le voci del menu */
+    flex: none; 
     width: 100%;
     padding: 10px 0;
   }
 
   .home > .menu div .num {
-    font-size: 24px; /* Riduci la dimensione del numero nel menu */
+    font-size: 24px; 
   }
 
   .home > .menu div .description {
-    font-size: 14px; /* Riduci la dimensione del testo nel menu */
+    font-size: 14px; 
   }
 
   .gallery > .gallery-title {
-    font-size: 20px; /* Riduci la dimensione del titolo della galleria */
+    font-size: 20px; 
   }
 
   .gallery > .gallery-flex {
-    height: auto; /* Imposta l'altezza automatica per la galleria */
-    flex-direction: column; /* Imposta le immagini della galleria su colonna */
+    height: auto; 
+    flex-direction: column; 
   }
 
   .gallery > .gallery-flex > .gallery-pic {
-    flex: none; /* Imposta una larghezza fissa per le immagini */
+    flex: none; 
     width: 100%;
-    height: auto; /* Imposta l'altezza automatica per le immagini */
+    height: auto; 
     margin-bottom: 10px;
   }
 
   .gallery > .gallery-flex > .gallery-pic img {
-    max-width: 100%; /* Assicurati che le immagini non superino la larghezza dello schermo */
+    max-width: 100%; 
   }
 
   .footer {
-    font-size: 14px; /* Riduci la dimensione del testo nel piè di pagina */
+    font-size: 14px; 
   }
 }
