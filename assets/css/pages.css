@@ -238,8 +238,7 @@ html,
 }
 
 .chisiamo{
-  margin-left: auto;
-  margin-right: auto;
+margin: auto;
 }
 
 
@@ -386,8 +385,6 @@ section.sotto img {
 
 .text {
   max-width: 60%;
-
-
 }
 
 /*
